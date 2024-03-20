@@ -1,0 +1,9 @@
+[2023-05-11 13:29:44 CEST] [FINE] [scrabble.Log.Logging] Starting Client Application...
+[2023-05-11 13:29:44 CEST] [WARNING] [javafx] Unsupported JavaFX configuration: classes were loaded from 'unnamed module @fcc8c27'
+[2023-05-11 13:29:44 CEST] [INFO] [scrabble.Log.Logging] Game Object created.
+[2023-05-11 13:29:45 CEST] [INFO] [scrabble.Log.Logging] Game setup window created.
+[2023-05-11 13:30:32 CEST] [INFO] [scrabble.Log.Logging] Created player list: {0}[scrabble.Model.Player@1cde6a5f, scrabble.Model.Player@7c614b2c]
+[2023-05-11 13:30:32 CEST] [INFO] [scrabble.Log.Logging] 2 players are set.
+[2023-05-11 13:30:32 CEST] [INFO] [scrabble.Log.Logging] Language is set to "Deutsch".
+[2023-05-11 13:30:32 CEST] [SEVERE] [scrabble.Log.Logging] The wordlist could not be set
+[2023-05-11 13:30:39 CEST] [FINE] [scrabble.Log.Logging] Client Application ended.
