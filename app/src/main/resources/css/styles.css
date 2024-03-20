@@ -1,0 +1,154 @@
+/*
+    Tile
+ */
+.tile {
+    -fx-background-color: beige;
+    -fx-border-color: black;
+    -fx-pref-width: 50.0;
+    -fx-pref-height: 50.0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.bigLabel {
+    -fx-font-size: 24px;
+}
+
+.smallLabel {
+    -fx-font-size: 12px;
+}
+
+/*
+    Labels
+ */
+.field {
+    -fx-text-fill: #fff;
+    -fx-font-size: 25;
+    -fx-alignment: center;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+    -fx-text-alignment: center;
+}
+
+.doubleWord {
+    -fx-background-color: #FFAF87;
+}
+
+.doubleLetter {
+    -fx-background-color: #78C0E0;
+}
+
+.tripleWord {
+    -fx-background-color: #ED6A5E;
+}
+
+.tripleLetter {
+    -fx-background-color: pink;
+}
+
+.titleField {
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.infoBar {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-spacing: 20;
+}
+
+/*
+    Input Elements
+ */
+
+#createGameButton {
+    -fx-alignment: center;
+    -fx-background-color: #4CAF50;
+    -fx-border-style: none;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-border-radius: 30px;
+}
+
+#gameButtons {
+    -fx-alignment: CENTER;
+    -fx-spacing: 20;
+}
+
+.gameButton {
+    -fx-pref-height: 50;
+    -fx-pref-width: 200;
+    -fx-border-radius: 30px;
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+}
+
+#finishTurnButton {
+    -fx-background-color: green;
+}
+
+#exchangeStonesButton {
+    -fx-background-color: blue;
+}
+
+#setStonesButton {
+    -fx-background-color: goldenrod;
+}
+
+#cancelSetting {
+    -fx-background-color: #FF6633;
+}
+
+/*
+    Panes and Containers
+ */
+
+#helpBox {
+    -fx-spacing: 20;
+    -fx-padding: 30 10;
+}
+
+.verticalContainer {
+    -fx-alignment: CENTER;
+}
+
+.infoBarContainer {
+    -fx-alignment: CENTER;
+    -fx-font-size: 22;
+}
+
+.infoLabel{
+    -fx-min-width: 280;
+    -fx-font-size: 12;
+}
+
+.currentPlayerContainer {
+    -fx-alignment: CENTER-LEFT;
+    -fx-padding: 0 50 0 0;
+}
+
+.actionContainer {
+    -fx-min-height: 75;
+    -fx-alignment: CENTER;
+}
+
+.gameBoardContainer {
+    -fx-alignment: CENTER;
+}
+
+.gridPaneHandContainer {
+    -fx-alignment: CENTER;
+    -fx-spacing: 10;
+}
+
+.scoreBoardContainer {
+    -fx-alignment: CENTER;
+}
+
+.prompt {
+    -fx-alignment: CENTER;
+    -fx-pref-height: 45.0;
+    -fx-pref-width: 593;
+    -fx-spacing: 10.0;
+}

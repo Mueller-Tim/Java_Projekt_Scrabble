@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="helpAnchorPane" stylesheets="/css/styles.css" xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="scrabble.Controller.HelpViewController">
+    <VBox fx:id="helpBox" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+          AnchorPane.topAnchor="0.0">
+        <Label fx:id="helpMenuTitle" styleClass="titleField"/>
+        <Label fx:id="gameExplanationDescription"/>
+        <Separator/>
+        <Label fx:id="playRulesTitle"/>
+        <Label fx:id="gameExplanationLabel"/>
+    </VBox>
+</AnchorPane>

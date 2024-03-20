@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane stylesheets="/css/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="scrabble.Controller.GameViewController">
+    <VBox AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+          AnchorPane.topAnchor="0.0">
+        <MenuBar>
+            <Menu text="?">
+                <MenuItem fx:id="buttonShowHelp" onAction="#showHelp"/>
+            </Menu>
+            <Menu fx:id="quit">
+                <MenuItem fx:id="menuQuitGame" onAction="#quitGame"/>
+            </Menu>
+        </MenuBar>
+        <HBox styleClass="infoBarContainer">
+            <HBox styleClass="currentPlayerContainer">
+                <Label fx:id="currentTurn">
+                </Label>
+            </HBox>
+            <HBox styleClass="scoreBoardContainer">
+                <Label fx:id="scoreboard">
+                </Label>
+            </HBox>
+            <Label fx:id="infoLabel" styleClass="infoLabel" disable="true"/>
+        </HBox>
+        <HBox styleClass="gameBoardContainer">
+            <GridPane fx:id="gridPane" gridLinesVisible="true">
+
+            </GridPane>
+        </HBox>
+        <HBox styleClass="actionContainer">
+            <ButtonBar fx:id="gameButtons">
+                <buttons>
+                    <Button fx:id="finishTurnButton" styleClass="gameButton" onAction="#finishTurn" disable="true"/>
+                    <Button fx:id="cancelSetting" styleClass="gameButton" onAction="#cancelSetting"/>
+                    <Button fx:id="exchangeStonesButton" styleClass="gameButton" onAction="#exchangeStones"
+                            disable="true"/>
+                </buttons>
+            </ButtonBar>
+            <GridPane fx:id="hand" styleClass="gridPaneHandContainer" />
+        </HBox>
+    </VBox>
+</AnchorPane>

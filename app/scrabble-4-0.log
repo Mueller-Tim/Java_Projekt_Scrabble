@@ -1,0 +1,26 @@
+[2023-05-12 23:46:53 CEST] [INFO] [scrabble.Log.Logging] Logging initialized.
+[2023-05-12 23:46:53 CEST] [FINE] [scrabble.Log.Logging] Starting Client Application...
+[2023-05-12 23:46:54 CEST] [INFO] [scrabble.Log.Logging] Game Object created.
+[2023-05-12 23:46:55 CEST] [INFO] [scrabble.Log.Logging] Game setup window created.
+[2023-05-12 23:47:03 CEST] [INFO] [scrabble.Log.Logging] Created player list with following usernames: [ddhdj, djdjd]
+[2023-05-12 23:47:05 CEST] [INFO] [scrabble.Log.Logging] The wordlist for the language "Deutsch" was set successfully
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=D, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=I, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=T, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=M, value=3] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player ddhdj added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=I, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=U, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=R, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=P, value=4] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=M, value=3] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=U, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Player djdjd added tile Tile[letter=T, value=1] to their tile list.
+[2023-05-12 23:47:05 CEST] [INFO] [scrabble.Log.Logging] Initial tiles are distributed.
+[2023-05-12 23:47:05 CEST] [FINE] [scrabble.Log.Logging] Game is set up -> Game{players=[ [playerName=ddhdj, tileList=[Tile[letter=D, value=1], Tile[letter=E, value=1], Tile[letter=I, value=1], Tile[letter=T, value=1], Tile[letter=E, value=1], Tile[letter=M, value=3], Tile[letter=E, value=1]], points=IntegerProperty [value: 0]],  [playerName=djdjd, tileList=[Tile[letter=I, value=1], Tile[letter=U, value=1], Tile[letter=R, value=1], Tile[letter=P, value=4], Tile[letter=M, value=3], Tile[letter=U, value=1], Tile[letter=T, value=1]], points=IntegerProperty [value: 0]]], currentPlayerIndex=IntegerProperty [value: 0], gameState=ObjectProperty [value: GAME_RUNNING], bag=scrabble.Model.Bag@2add5358, skippedTurns=0, language=Deutsch}
+[2023-05-12 23:47:06 CEST] [INFO] [scrabble.Log.Logging] Game window created for: ddhdj.
+[2023-05-12 23:47:07 CEST] [INFO] [scrabble.Log.Logging] Game window created for: djdjd.
+[2023-05-12 23:47:08 CEST] [INFO] [scrabble.Log.Logging] Game is over by closing the window.
+[2023-05-12 23:47:09 CEST] [FINE] [scrabble.Log.Logging] Client Application ended.

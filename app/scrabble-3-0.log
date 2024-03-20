@@ -1,0 +1,103 @@
+[2023-05-13 00:07:23 CEST] [INFO] [scrabble.Log.Logging] Logging initialized.
+[2023-05-13 00:07:23 CEST] [FINE] [scrabble.Log.Logging] Starting Client Application...
+[2023-05-13 00:07:24 CEST] [INFO] [scrabble.Log.Logging] Game Object created.
+[2023-05-13 00:07:24 CEST] [INFO] [scrabble.Log.Logging] Game setup window created.
+[2023-05-13 00:07:31 CEST] [INFO] [scrabble.Log.Logging] Created player list with following usernames: [jfjf, kdkd]
+[2023-05-13 00:07:32 CEST] [INFO] [scrabble.Log.Logging] The wordlist for the language "Deutsch" was set successfully
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=C, value=4] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=A, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=S, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=S, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=U, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=R, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=Ä, value=6] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=U, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=H, value=2] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=T, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=M, value=3] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=D, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=U, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-13 00:07:32 CEST] [INFO] [scrabble.Log.Logging] Initial tiles are distributed.
+[2023-05-13 00:07:32 CEST] [FINE] [scrabble.Log.Logging] Game is set up -> Game{players=[ [playerName=jfjf, tileList=[Tile[letter=C, value=4], Tile[letter=A, value=1], Tile[letter=S, value=1], Tile[letter=S, value=1], Tile[letter=U, value=1], Tile[letter=R, value=1], Tile[letter=Ä, value=6]], points=IntegerProperty [value: 0]],  [playerName=kdkd, tileList=[Tile[letter=U, value=1], Tile[letter=H, value=2], Tile[letter=T, value=1], Tile[letter=M, value=3], Tile[letter=D, value=1], Tile[letter=U, value=1], Tile[letter=E, value=1]], points=IntegerProperty [value: 0]]], currentPlayerIndex=IntegerProperty [value: 0], gameState=ObjectProperty [value: GAME_RUNNING], bag=scrabble.Model.Bag@40fe97a5, skippedTurns=0, language=Deutsch}
+[2023-05-13 00:07:32 CEST] [INFO] [scrabble.Log.Logging] Game window created for: jfjf.
+[2023-05-13 00:07:32 CEST] [INFO] [scrabble.Log.Logging] Game window created for: kdkd.
+[2023-05-13 00:07:36 CEST] [INFO] [scrabble.Log.Logging] Entering playerFinishTurn method.
+[2023-05-13 00:07:36 CEST] [INFO] [scrabble.Log.Logging] Middle field is not used.
+[2023-05-13 00:07:38 CEST] [INFO] [scrabble.Log.Logging] Player jfjf cleared their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=L, value=2] to their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=B, value=3] to their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=N, value=1] to their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=T, value=1] to their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=A, value=1] to their tile list.
+[2023-05-13 00:07:38 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-13 00:07:38 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: kdkd, number of skipped turns: 0
+[2023-05-13 00:07:39 CEST] [INFO] [scrabble.Log.Logging] Player kdkd cleared their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=H, value=2] to their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=S, value=1] to their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=N, value=1] to their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=N, value=1] to their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter= , value=0] to their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=Q, value=10] to their tile list.
+[2023-05-13 00:07:39 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=G, value=2] to their tile list.
+[2023-05-13 00:07:39 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: jfjf, number of skipped turns: 0
+[2023-05-13 00:07:41 CEST] [INFO] [scrabble.Log.Logging] Entering playerFinishTurn method.
+[2023-05-13 00:07:41 CEST] [INFO] [scrabble.Log.Logging] Middle field is not used.
+[2023-05-13 00:07:45 CEST] [INFO] [scrabble.Log.Logging] Player jfjf cleared their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=I, value=1] to their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=R, value=1] to their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=U, value=1] to their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=W, value=3] to their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=R, value=1] to their tile list.
+[2023-05-13 00:07:45 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter= , value=0] to their tile list.
+[2023-05-13 00:07:45 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: kdkd, number of skipped turns: 0
+[2023-05-13 00:07:46 CEST] [INFO] [scrabble.Log.Logging] Player kdkd cleared their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=P, value=4] to their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=F, value=4] to their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=A, value=1] to their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=C, value=4] to their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=Q, value=10] to their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=I, value=1] to their tile list.
+[2023-05-13 00:07:46 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=M, value=3] to their tile list.
+[2023-05-13 00:07:46 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: jfjf, number of skipped turns: 0
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Entering playerFinishTurn method.
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Found new Tile[letter=E, value=1] on: x=7, y=7
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Found beginning of word on: x=7, y=7
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Found new Tile[letter=I, value=1] on: x=8, y=7
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Found new word: EI
+[2023-05-13 00:07:50 CEST] [FINE] [scrabble.Log.Logging] Points for char "E" are "1".
+[2023-05-13 00:07:50 CEST] [FINE] [scrabble.Log.Logging] Points for char "I" are "1".
+[2023-05-13 00:07:50 CEST] [FINE] [scrabble.Log.Logging] Player jfjf dropped tile Tile[letter=E, value=1] from their tile list.
+[2023-05-13 00:07:50 CEST] [FINE] [scrabble.Log.Logging] Player jfjf dropped tile Tile[letter=I, value=1] from their tile list.
+[2023-05-13 00:07:50 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=T, value=1] to their tile list.
+[2023-05-13 00:07:50 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=D, value=1] to their tile list.
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Turn finished successfully with word: EI.
+[2023-05-13 00:07:50 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: kdkd, number of skipped turns: 0
+[2023-05-13 00:07:57 CEST] [INFO] [scrabble.Log.Logging] Player kdkd cleared their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=E, value=1] to their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=C, value=4] to their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=P, value=4] to their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=I, value=1] to their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=N, value=1] to their tile list.
+[2023-05-13 00:07:57 CEST] [FINE] [scrabble.Log.Logging] Player kdkd added tile Tile[letter=T, value=1] to their tile list.
+[2023-05-13 00:07:57 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: jfjf, number of skipped turns: 0
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Entering playerFinishTurn method.
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Found new Tile[letter=D, value=1] on: x=6, y=7
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Found beginning of word on: x=6, y=7
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Found new Tile[letter= , value=0] on: x=9, y=7
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Found new word: DEI 
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Points for char "D" are "1".
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Points for char "E" are "1".
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Points for char "I" are "1".
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Points for char " " are "0".
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Player jfjf dropped tile Tile[letter=D, value=1] from their tile list.
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Player jfjf dropped tile Tile[letter= , value=0] from their tile list.
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=H, value=2] to their tile list.
+[2023-05-13 00:08:07 CEST] [FINE] [scrabble.Log.Logging] Player jfjf added tile Tile[letter=H, value=2] to their tile list.
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Turn finished successfully with word: DEI .
+[2023-05-13 00:08:07 CEST] [INFO] [scrabble.Log.Logging] Switched to next player: kdkd, number of skipped turns: 0
+[2023-05-13 00:08:15 CEST] [INFO] [scrabble.Log.Logging] Game is over by closing the window.
+[2023-05-13 00:08:16 CEST] [FINE] [scrabble.Log.Logging] Client Application ended.
